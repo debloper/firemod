@@ -28,10 +28,19 @@ body {
   font-family: "Open Sans", Sans-serif;
   text-align: center;
 }
+hr {
+  width: 30rem;
+  border: 1px solid;
+  border-color: rgba(64,60,32,0.3) transparent rgba(255,240,128,0.3);
+}
 p {
   width: 30rem;
   margin: 2rem auto;
   color: #300;
+}
+a {
+  text-decoration: none;
+  color: #ddd;
 }
 
 /* 1. ID & Class */
@@ -53,3 +62,4 @@ p {
 }
 
 /* 2. Pseudoclass */
+a:hover { color: #fff; }
