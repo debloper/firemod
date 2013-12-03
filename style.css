@@ -67,3 +67,16 @@ footer {
 
 /* 2. Pseudoclass */
 a:hover { color: #fff; }
+
+/* 3. Media Queries */
+@media screen and (max-width: 780px) {
+  #title { font-size: 5rem; line-height: 7rem; }
+  #punchline { font-size: 1rem; }
+  body { padding: 2rem; }
+  p { width: 80%; }
+}
+@media screen and (max-width: 512px) {
+  #title { font-size: 4rem; line-height: 5rem; }
+  #punchline { font-size: 0.8rem; }
+  p { width: 100%; }
+}
