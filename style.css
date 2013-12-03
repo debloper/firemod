@@ -42,6 +42,10 @@ a {
   text-decoration: none;
   color: #ddd;
 }
+footer {
+  margin: 2rem auto 4rem;
+  font-size: 0.8rem;
+}
 
 /* 1. ID & Class */
 #title {
