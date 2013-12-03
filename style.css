@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/**
+ * Stylesheet Index:
+ * =================
+ *
+ * 0. Elements
+ * 1. ID & Class
+ * 2. Pseudoclass
+ * 3. Media Queries
+ */
+
+/* 0. Elements */
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+::selection {}
+::-moz-selection {}
+html { font-size: 16px; }
+body {
+  width: 100%;
+  height: 32px;	
+  margin: 0;
+  padding: 0;
+  /*background-color: #F27A00;*/
+  background-attachment: fixed;
+  background-image: radial-gradient(ellipse farthest-corner, #FF9500, #E66000);
+  min-width: 320px;
+  font-family: "Open Sans", Sans-serif;
+}
+
+/* 1. ID & Class */
+
+/* 2. Pseudoclass */
